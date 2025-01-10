@@ -4,7 +4,10 @@
 Esse projeto vou fazer analises sobre um dataset que fala sobre o índice de depressão nos estudantes, para aprimorar minhas habilidades com uso do Excel e visualização de dados, procurar fatores que possuem correlação e acarretam numa possível depressão.
 <hr>
 
-## Objetivos e Perguntas
+## Objetivos
+Como objetivos principais para esse projeto fazer analises estatisticas com os dados para gerar insights sobre os fatores determinantes que resultam em depressão nos estudantes e utilizando visualizações gráficas para auxiliar nesses processos.
+
+<hr>
 
 ## Sobre o Dataset
 O dataset traz informações importantes e pertinentes que irão ajudar de forma eficiente na analise de quais fatores são importantes e que demonstram uma possível depresão em um aluno.
