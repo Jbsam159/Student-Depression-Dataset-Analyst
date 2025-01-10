@@ -30,3 +30,5 @@ A baixo falarei mais sobre as variáveis presentes no dataset.
 * Financial Stress: Serve para informar o tanto de estresse por causa de situações financeiras, variando entre: 1(muito baixo) a 5(muito alto).
 * Family History of Mental Illness: Serve para informar se existe histórico familiar sobre doenças mentais.
 * Depression: Serve para informar se o estudante possui ou não depressão, variando entre 1(sim) e 0(não).
+
+![Imagem do Dataset](C:\Users\João Vitor\Pictures\Screenshots\Captura de tela 2025-01-10 111835.png?raw=true "Imagem do Dataset")
