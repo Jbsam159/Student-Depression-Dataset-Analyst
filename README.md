@@ -30,6 +30,20 @@ A baixo falarei mais sobre as variáveis presentes no dataset.
 * Financial Stress: Serve para informar o tanto de estresse por causa de situações financeiras, variando entre: 1(muito baixo) a 5(muito alto).
 * Family History of Mental Illness: Serve para informar se existe histórico familiar sobre doenças mentais.
 * Depression: Serve para informar se o estudante possui ou não depressão, variando entre 1(sim) e 0(não).
-
 ![Imagem do Dataset](images/dataset_imagem.png)
+
+<hr>
+
+## Etapas do Projeto
+Aqui irei destacar as etapas e processos feitos no dataset para corrigir imprecisões, valores faltantes e também transformação dos seus tipos para ficarem mais legíveis e fáceis de serem analisados e representados em uma visualização por meio de gráficos. 
+
+### Padronização dos tipos dos dados das colunas
+Padronizei as colunas (Id, Age, Academic Pressure, Work Pressure, CGPA, Study Satisfaction, Job Satisfaction, Work/Study Hours, Financial Stress e Depression) como número seu formato de dados originais, deixando eficiente para criar analises e diferenciar seus tipos. Nessas colunas também deixei sem casas decimais para ficar mais preciso, exceto a coluna de CGPA que se refere a média das notas do individuo, essa coluna eu deixei com duas casas decimais.
+
+### Limpando Valores Impresicos na coluna CGPA
+Os valores presentes em grande maioria se apresentam nesse formato: x.xx que se refere a uma média das pontuações acadêmicas dos estudantes entretanto, existe algums falores imprecisos que invés de estarem com (.) eles estão com (,) e outras valores que não possuem um delimitar como 74 e formam valores errôneos baseados nos valores possíveis para médias acadêmicas.
+
+#### Limpeza na coluna City
+Após uma breve analise nos possíveis valores a essa coluna, existe um valor para cidade que aparece como 3.0, como esse resultado fica bastante errôneo, atribui um novo valor de "Desconhecida" pois, não há nenhuma informação de onde o indivíduo de id 35309 possa morar.
+
 
