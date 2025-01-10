@@ -31,4 +31,5 @@ A baixo falarei mais sobre as variáveis presentes no dataset.
 * Family History of Mental Illness: Serve para informar se existe histórico familiar sobre doenças mentais.
 * Depression: Serve para informar se o estudante possui ou não depressão, variando entre 1(sim) e 0(não).
 
-![Imagem do Dataset](C:\Users\João Vitor\Pictures\Screenshots\Captura de tela 2025-01-10 111835.png?raw=true "Imagem do Dataset")
+![Imagem do Dataset](images/Captura_de_tela_2025-01-10_111835.png "Imagem do Dataset")
+
