@@ -43,7 +43,8 @@ Padronizei as colunas (Id, Age, Academic Pressure, Work Pressure, CGPA, Study Sa
 Já as colunas (City, Profession,Degree, Have you ever had suicidal thoughts, Family History of Mental Illness) padronizei tudo como tipos de texto para auxiliar na analise visual a ser feita posteriormente.
 
 ### Limpando Valores Impresicos na coluna CGPA
-Os valores presentes em grande maioria se apresentam nesse formato: x.xx que se refere a uma média das pontuações acadêmicas dos estudantes entretanto, existe algums falores imprecisos que invés de estarem com (.) eles estão com (,) e outras valores que não possuem um delimitar como 74 e formam valores errôneos baseados nos valores possíveis para médias acadêmicas.
+Os valores presentes em grande maioria se apresentam nesse formato: x.xx que se refere a uma média das pontuações acadêmicas dos estudantes entretanto, existe algums falores imprecisos que invés de estarem com (.) eles estão com (,) e outras valores que não possuem um delimitador como (62,63,64,73...) e formam valores errôneos baseados nos valores possíveis para médias acadêmicas.
+Outra mudança que realizei foi arredondar de forma mais precisa os números de CGPA pois, existia muitos registros de notas como(5.11, 5.12, 5.13, 5.14) então usei critérios de arredondamento para deixar mais preciso esses dados.
 
 #### Limpeza na coluna City
 Após uma breve analise nos possíveis valores a essa coluna, existe um valor para cidade que aparece como 3.0, como esse resultado fica bastante errôneo, atribui um novo valor de "Desconhecida" pois, não há nenhuma informação de onde o indivíduo de id 35309 possa morar.
