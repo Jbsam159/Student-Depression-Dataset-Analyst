@@ -40,6 +40,8 @@ Aqui irei destacar as etapas e processos feitos no dataset para corrigir impreci
 ### Padronização dos tipos dos dados das colunas
 Padronizei as colunas (Id, Age, Academic Pressure, Work Pressure, CGPA, Study Satisfaction, Job Satisfaction, Work/Study Hours, Financial Stress e Depression) como número seu formato de dados originais, deixando eficiente para criar analises e diferenciar seus tipos. Nessas colunas também deixei sem casas decimais para ficar mais preciso, exceto a coluna de CGPA que se refere a média das notas do individuo, essa coluna eu deixei com duas casas decimais.
 
+Já as colunas (City, Profession,Degree, Have you ever had suicidal thoughts, Family History of Mental Illness) padronizei tudo como tipos de texto para auxiliar na analise visual a ser feita posteriormente.
+
 ### Limpando Valores Impresicos na coluna CGPA
 Os valores presentes em grande maioria se apresentam nesse formato: x.xx que se refere a uma média das pontuações acadêmicas dos estudantes entretanto, existe algums falores imprecisos que invés de estarem com (.) eles estão com (,) e outras valores que não possuem um delimitar como 74 e formam valores errôneos baseados nos valores possíveis para médias acadêmicas.
 
