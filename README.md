@@ -59,5 +59,15 @@ Less Than 5 hours | 1
 7-8 hours | 3
 More than 8 hours | 4
 
+### Mudança na formato dos dados na coluna Dietary Habits
+Na coluna Dietary Habits o formato dos dados era do tipo string e variando no intervalo de (Others, Unhealthy, Moderate e Healthy) decidi fazer a conversão para valores inteiros para facilicar em análises quantitativas, os novos valores ficaram assim:
+Valores Antigos   | Valores Novos
+--------- | ------
+Others | NA
+Unhealthy| 1
+Moderate| 2
+Healthy | 3
+
+
 
 
