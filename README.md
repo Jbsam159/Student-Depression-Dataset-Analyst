@@ -68,6 +68,9 @@ Unhealthy| 1
 Moderate| 2
 Healthy | 3
 
+### Mudança na formato dos dados na coluna Have you ever had suicidal thoughts e Family History of Mental Illness
+Em ambas as colunas Have you ever had suicidal thoughts e Family History of Mental Illness os valores predominantes são strings variando entre (Yes ou No) então, fiz a troca para 1 simbolizando Yes e 0 simbolizando o No em ambas as colunas.
+
 
 
 
